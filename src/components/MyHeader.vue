@@ -4,17 +4,14 @@
       <div id="logo"><img src="../assets/logo-dark.png" alt=""></div>
       <nav>
         <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">LANDING</a></li>
-          <li><a href="">PAGES</a></li>
-          <li><a href="">DOCS</a></li>
+          <li v-for="link,i in linkNav" :key="i" :class="link.active ? 'active':''"><a href="">{{link.text}}<span class="tendina"><i class="fas fa-chevron-down"></i></span></a></li>
         </ul>
       </nav>
       <div class="ricerca btn-account">
-        <div>icona</div>
-        <div class="btn-light">pulasnte1</div>
-        <div class="btn-light">>pulasnte2</div>
-        <div class="btn-light">>pulasnte3</div>
+        <div id="lente"><i class="fas fa-search"></i></div>
+        <div class="btn-light"><i class="fab fa-github"></i></div>
+        <div class="btn-light"><i class="fab fa-stack-overflow"></i></div>
+        <div class="btn-light"><i class="far fa-user"></i></div>
       </div>
     </div>
   </div>
@@ -23,11 +20,41 @@
 <script>
 export default {
   name: 'MyHeader',
+  data() {
+    return {
+      linkNav:[
+        {
+          text:"HOME",
+          active:false
+        },
+        {
+          text:"LANDING",
+          active:true
+        },
+        {
+          text:"PAGES",
+          active:false
+        },
+        {
+          text:"DOCS",
+          active:false
+        },
+      ]
+    }}
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+#lente{
+  display: flex;
+  align-items: center;
+  .fa-search{
+    font-size: 15px;
+    margin-right: 5px;
+  }
+}
+
 #centratore{
   width: 70%;
   margin: 20px auto;
@@ -48,11 +75,19 @@ nav{
     display: flex;
     list-style: none;
     li{
-      margin-right: 35px;
+      margin-right: 40px;
     }
+    .active{
+        a{
+          color: #2f55d4;
+        }
+      }
     a{
       color: black;
       text-decoration: none;
+    }
+    .tendina{
+      margin-left: 5px;
     }
   }
   .ricerca{
@@ -65,7 +100,10 @@ nav{
       display: flex;
       justify-content: center;
       align-items: center;
+      border-radius: 5px;
+      color: #2f55d4;
     }
   }
 }
+
 </style>
