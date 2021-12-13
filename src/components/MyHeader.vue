@@ -40,6 +40,10 @@ export default {
       height: 35px;
     }
   }
+nav{
+  display: flex;
+  align-items: center;
+}
   ul{
     display: flex;
     list-style: none;
