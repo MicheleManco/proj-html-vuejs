@@ -7,24 +7,24 @@
           <img src="../assets/logo-light.png" alt="">
           <p>Start working with Landrick that can provide everything you need to generate awereness drive traffic, connect.</p>
           <div id="socials">
-            <div>icona</div>
-            <div>icona</div>
-            <div>icona</div>
-            <div>icona</div>
+            <div class="social-btn"><i class="fab fa-facebook-f"></i></div>
+            <div class="social-btn"><i class="fab fa-instagram"></i></div>
+            <div class="social-btn"><i class="fab fa-twitter"></i></div>
+            <div class="social-btn"><i class="fab fa-linkedin-in"></i></div>
           </div>
         </div>
 
         <div id="col-2">
           <h3 class="section-ft">Company</h3>
           <ul>
-            <li v-for="link,i in companyLinks" :key="i"><a class="link-decoration" href="">{{link.text}}</a></li>
+            <li v-for="link,i in companyLinks" :key="i"><a class="link-decoration" href=""><i class="fas fa-chevron-right"></i>{{link.text}}</a></li>
           </ul>
         </div>
 
          <div id="col-3">
           <h3 class="section-ft">Usefull Links</h3>
           <ul>
-            <li v-for="link,i in usefullLinks" :key="i"><a class="link-decoration" href="">{{link.text}}</a></li>
+            <li v-for="link,i in usefullLinks" :key="i"><a class="link-decoration" href=""><i class="fas fa-chevron-right"></i>{{link.text}}</a></li>
           </ul>
         </div>
 
@@ -32,7 +32,7 @@
           <h3 class="section-ft">Newsletter</h3>
           <p>Sign up and receive the latest tips via email</p>
           <div>Write your email*</div>
-          <div id="user-email">icona Your email:</div>
+          <div id="user-email"><i class="far fa-envelope"></i>Your email:</div>
           <div id="btn-sub">Subsribe</div>
         </div>
 
@@ -42,7 +42,7 @@
     <div id="divisorio">
       <div id="centratore-bottom">
         <div id="inferiore">
-          <div>2020 Landrick. Design with love by Shreethemes.</div>
+          <div><i class="far fa-copyright"></i> 2020 Landrick. Design with <i class="fas fa-heart"></i> by Shreethemes.</div>
 
           <div id="credit-cards">
             <div class="card"><img src="../assets/american-ex.png" alt=""></div>
@@ -114,6 +114,26 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.fa-heart{
+  color: #e43f52;
+}
+.social-btn{
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+}
+.fa-envelope{
+  margin: 0 10px;
+}
+.fa-chevron-right{
+  margin-right: 10px;
+}
 #btn-sub{
   color: #2f55d4;
   border: 1px solid #2f55d4;
@@ -121,19 +141,20 @@ export default {
   padding: 10px;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 #user-email{
   background-color: #27314f;
   padding: 10px;
   border-radius: 10px;
-  margin: 10px 0;
+  margin-top: 15px;
 }
 .link-decoration{
   text-decoration: none;
   color:#adb5bd;
 }
 li{
-  line-height: 30px;
+  line-height: 35px;
   list-style: none;
 }
 #bg-dark-blue{
