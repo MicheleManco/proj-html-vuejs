@@ -60,6 +60,7 @@ export default {
     p{
         color: #8492a6;
         margin: 15px 0 30px 0;
+        line-height: 25px;
         span{
             color: #2f55d4;
         }
@@ -67,7 +68,7 @@ export default {
     #row-features{
         display: flex;
         justify-content: space-between;
-        margin-top: 90px;
+        margin-top: 60px;
     }
     .card{
         width: 22%;
@@ -81,9 +82,10 @@ export default {
             align-items: center;
             background-color: #2f55d41a;
             color: #2f55d4;
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             margin-bottom: 20px;
+            border-radius: 7px;
         }
         a{
             text-decoration: none;

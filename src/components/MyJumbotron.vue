@@ -112,6 +112,7 @@ hr{
     }
     p{
         color: #8492a6;
+        line-height: 25px;
     }
     #row-btns{
         display: flex;
