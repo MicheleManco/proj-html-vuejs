@@ -7,7 +7,7 @@
           <div class="text"><span><i class="far fa-check-circle"></i></span>Digitial Marketing Solutions for Tomorrow</div>
           <div class="text"><span><i class="far fa-check-circle"></i></span>Our Talented &amp; Experienced Marketing Agency</div>
           <div class="text"><span><i class="far fa-check-circle"></i></span>Create your own skin to match your brand</div>
-          <div class="btn">Get started <i class="fas fa-arrow-right"></i></div>      
+          <div class="btn">Read More <i class="fas fa-arrow-right"></i></div>      
       </div>
 
       <div><img src="../assets/1.png" alt=""></div>
