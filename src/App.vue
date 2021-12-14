@@ -2,8 +2,8 @@
   <div id="app">
     <MyHeader/>
     <MyJumbotron/>
-    <MyFooter/>
     <MyMain/>
+    <MyFooter/>
   </div>
 </template>
 

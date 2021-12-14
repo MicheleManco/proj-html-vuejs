@@ -1,14 +1,20 @@
 <template>
   <div>
+    <KeyFeatures/>
   </div>
 </template>
 
 <script>
+import KeyFeatures from '@/components/KeyFeatures.vue'
 export default {
   name: 'MyMain',
+  components:{
+    KeyFeatures,
+  }
+
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped lang="scss">
 </style>
