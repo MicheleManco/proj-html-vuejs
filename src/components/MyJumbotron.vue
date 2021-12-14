@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="centratore">
+    <div class="centratore">
       <div>
           <div class="btn-topic">Development</div>
           <h1>A Complete Developer Toolset</h1>
@@ -16,6 +16,19 @@
 
       <div><img src="../assets/about.png" alt=""></div>
     </div>
+    <div><hr></div>
+    <div class="centratore-sotto">
+      <div id="brands">
+        <div><img src="../assets/amazon.svg" alt=""></div>
+        <div><img src="../assets/google.svg" alt=""></div>
+        <div><img src="../assets/lenovo.svg" alt=""></div>
+        <div><img src="../assets/paypal.svg" alt=""></div>
+        <div><img src="../assets/shopify.svg" alt=""></div>
+        <div><img src="../assets/spotify.svg" alt=""></div>
+      </div>
+    </div>
+      
+    
   </div>
 </template>
 
@@ -48,7 +61,34 @@ export default {
 
 
 <style scoped lang="scss">
-#centratore{
+hr{
+  color: #e9ecef;
+}
+.centratore-sotto{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    #brands{
+      margin: 30px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 70px;
+      div{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        img{
+          width: 85%;
+          max-height: 100%;
+          color: #8492a6;
+        }
+      }
+    }
+}
+.centratore{
     width: 70%;
     margin: 70px auto;
     display: flex;

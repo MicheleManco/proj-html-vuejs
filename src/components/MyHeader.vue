@@ -47,12 +47,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #lente{
-  display: flex;
-  align-items: center;
-  .fa-search{
-    font-size: 15px;
-    margin-right: 5px;
-  }
+ 
+  
 }
 
 #centratore{
@@ -92,6 +88,15 @@ nav{
   }
   .ricerca{
     display: flex;
+    #lente{
+      color: #8492a6;
+      display: flex;
+      align-items: center;
+      .fa-search{
+        font-size: 18px;
+        margin-right: 5px;
+      }
+    }
     .btn-light{
       height: 35px;
       width: 35px;
