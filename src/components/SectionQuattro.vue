@@ -74,7 +74,7 @@ h1{
   .card{
     width: 25%;
     border: 1px solid  #adb5bd;
-    box-shadow: 0 3px #adb5bd;
+    box-shadow: 0 5px #adb5bd;
     border-radius: 10px;
     padding: 30px;
   }
