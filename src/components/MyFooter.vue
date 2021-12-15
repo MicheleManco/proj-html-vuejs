@@ -133,6 +133,7 @@ export default {
 }
 .fa-chevron-right{
   margin-right: 10px;
+  font-size: 10px;
 }
 #btn-sub{
   color: #2f55d4;

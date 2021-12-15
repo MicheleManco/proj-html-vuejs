@@ -51,6 +51,9 @@ export default {
 
 
 <style scoped lang="scss">
+.fa-chevron-right{
+  font-size: 10px;
+}
 #centratore{
     width: 70%;
     margin: 50px auto;
