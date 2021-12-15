@@ -9,7 +9,7 @@
               <div class="container">
                 <div class="icona-features"><i :class="feature.icon"></i></div>
                 <h3>{{feature.title}}</h3>
-                <p>edkgjbnsgenbsolgknslg nsogikslgisl ogensgns lsegiksegi l igsg isneolg is</p>
+                <p>{{feature.text}}</p>
                 <a href="">Read More <i class="fas fa-chevron-right"></i></a>
               </div>
               
