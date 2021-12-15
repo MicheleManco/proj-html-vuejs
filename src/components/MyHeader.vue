@@ -46,11 +46,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#lente{
- 
-  
-}
-
 #centratore{
   width: 70%;
   margin: 20px auto;
@@ -107,6 +102,10 @@ nav{
       align-items: center;
       border-radius: 5px;
       color: #2f55d4;
+    }
+    .btn-light:hover{
+        color: white;
+        background-color: #2f55d4;
     }
   }
 }
