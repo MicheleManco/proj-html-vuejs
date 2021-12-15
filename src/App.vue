@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <MyHeader/>
-    <MyJumbotron/>
+    <div class="bg-color">
+      <MyHeader/>
+      <MyJumbotron/>
+    </div>
     <MyMain/>
     <MyFooter/>
   </div>
@@ -29,6 +31,9 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.bg-color{
+  background-color: #f8f9fc;
 }
 
 </style>

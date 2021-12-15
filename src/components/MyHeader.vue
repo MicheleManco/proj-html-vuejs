@@ -48,7 +48,8 @@ export default {
 <style scoped lang="scss">
 #centratore{
   width: 70%;
-  margin: 20px auto;
+  margin: 0px auto;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   #logo{

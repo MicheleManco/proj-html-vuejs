@@ -16,7 +16,9 @@
 
       <div><img src="../assets/about.png" alt=""></div>
     </div>
-    <div><hr></div>
+
+    <div id="separatore"></div>
+
     <div class="centratore-sotto">
       <div id="brands">
         <div><img src="../assets/amazon.svg" alt=""></div>
@@ -61,8 +63,8 @@ export default {
 
 
 <style scoped lang="scss">
-hr{
-  color: #e9ecef;
+#separatore{
+  border-top: 1px solid #adb5db;
 }
 .centratore-sotto{
     width: 70%;

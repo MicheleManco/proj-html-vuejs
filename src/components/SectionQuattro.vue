@@ -78,6 +78,10 @@ h1{
     border-radius: 10px;
     padding: 30px;
   }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 5px 10px 2px #2f55d4;
+  }
 }
 .fa-check-circle{
   color: #2f55d4;
